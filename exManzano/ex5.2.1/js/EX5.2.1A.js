@@ -6,8 +6,8 @@ console.log("")
 
 let numero = 15
 
-do
-    console.log(numero, "² = ", numero ^ 2)
-      console.log("")
-      numero++
-while (numero > 200)
+do {
+  console.log(numero+"² = "+ numero**2)
+  console.log("")
+  numero++
+} while (numero < 201);
