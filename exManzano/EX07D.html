@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX07D - Manzano</title>
+</head>
+
+<body>
+    <p>EX07D - Apostila Manzano</p>
+
+    <script>
+        // Descrição   : Solicitar o tempo gasto e a velocidade média para saber quanto de gasolina foi gasto por KM
+
+        alert("Digite aqui sua velocidade e o tempo gasto para descobrir quantos litros gastou por KM");
+        let tempoGasto = parseInt(prompt("Tempo gasto (horas):"));
+        let velocidade = Number(prompt("Velocidade média (Km/h):"));
+        let distancia = 0;
+        let litrosUsados = 0;
+
+        distancia = velocidade * tempoGasto;
+        litrosUsados = distancia / 12
+
+        alert("Velocidade Média: "+ velocidade+ "Km/h")
+        alert("Tempo Gasto: "+ tempoGasto+ "h")
+        alert("Distância percorrida: "+ distancia+ "Km")
+        alert("Litros usados: "+ litrosUsados.toFixed(2)+ "L")
+
+    </script>
+
+</body>
+
+</html>

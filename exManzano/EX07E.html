@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX07E - Manzano</title>
+</head>
+
+<body>
+    <p>EX07E - Apostila Manzano</p>
+
+    <script>
+        // Descrição   : Efetuando o cálculo de uma prestação em atraso solicitando o valor do produto e o tempo demorado para pagar a prestação
+
+        alert("Digite aqui o valor do produto e o tempo em atraso para ver o valor da prestação em atraso")
+        let tempoAtrasado = parseInt(prompt("Escreva o tempo em atraso (dias)"))
+        let valorProduto = parseFloat(prompt("Escreva o valor do produto (R$)"))
+        let prestacaoAtrasada = 0
+
+        prestacaoAtrasada = valorProduto + (valorProduto * 0.05) * tempoAtrasado //taxa de 5% do valor do produto
+
+        alert("O valor da prestação atrasada é de: R$ "+ prestacaoAtrasada.toFixed(2))
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX07K - Manzano</title>
+</head>
+
+<body>
+    <p>EX07K - Apostila Manzano</p>
+
+    <script>
+        // Descrição   :  Solicitando valor em real e convertendo para dólar e pedindo a cotação atual
+
+        alert("Conversor de Real para Dólar")
+        let cotacaoReal = Number(prompt("Digite a cotação atual (real em relação ao dólar)"))
+        let reaisDisponiveis = Number(prompt("Digite o valor em real para conversão"))
+
+        let dolar = reaisDisponiveis / cotacaoReal
+
+        alert("O valor de "+ reaisDisponiveis.toFixed(2)+ " R$ convertido fica igual a: "+ dolar.toFixed(2)+ "$")
+
+    </script>
+
+</body>
+
+</html>
